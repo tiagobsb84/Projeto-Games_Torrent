@@ -31,6 +31,10 @@ header nav {
   font-size: 41px;
 }
 
+.nav-menu {
+  display: flex;
+}
+
 .nav-menu a {
   color: #fff;
   font-size: 23px;
@@ -41,6 +45,37 @@ header nav {
 
 .nav-menu a:hover {
   color: chartreuse;
+}
+
+.nav-categoria {
+  position: relative;
+}
+
+.lista-categoria {
+  position: absolute;
+  background-color: #38383f;
+  min-width: 160px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  display: none;
+}
+
+.nav-categoria:hover .lista-categoria {
+  display: block;
+}
+
+.lista-categoria a:hover {
+  opacity: 0.5;
+  background-color: #38383f;
+}
+
+.lista-categoria a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .nav-pesquisar {
@@ -84,6 +119,7 @@ section {
   justify-content: center;
   margin-top: 90px;
   background: url("https://www.papeldeparedestar.com.br/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/8/28389_1.jpg");
+  min-height: 87vh;
 }
 
 .secao-cards {
