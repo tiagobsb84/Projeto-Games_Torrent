@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  padding: 12px;
+  background-color: black;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-titulo h1 a {
+  text-decoration: none;
+  font-family: "Creepster", cursive;
+  color: #fff;
+  font-size: 41px;
+}
+
+.nav-menu a {
+  color: #fff;
+  font-size: 23px;
+  margin-right: 42px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  color: chartreuse;
+}
+
+.nav-pesquisar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-pesquisar input {
+  color: #fff;
+  padding: 15px;
+  border: none;
+  width: 14rem;
+  border-radius: 13px;
+}
+
+.nav-pesquisar input:focus {
+  background-color: darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-pesquisar input::placeholder {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* .icon-pesquisar {
+  width: 44px;
+  background-color: #fff;
+  border-radius: 11px;
+  height: 41px;
+  position: absolute;
+} */
+
+/* CARDS */
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  background: url("https://www.papeldeparedestar.com.br/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/2/8/28389_1.jpg");
+}
+
+.secao-cards {
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 49px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+  margin-bottom: 29px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 211px;
+  height: 325px;
+  background-color: darkgrey;
+  border: none;
+  border-radius: 21px;
+}
+
+.imagem-card {
+  width: 100%;
+  height: 202px;
+}
+
+.genero-card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.genero-card p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.botao-card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  margin: 10px auto;
+  background-color: darkblue;
+  color: #fff;
+  padding: 8px;
+  width: 147px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.botao-card:hover {
+  opacity: 0.5;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 40px;
+  padding: 6px;
+  align-items: center;
+  font-weight: bold;
+  bottom: 0;
+  position: fixed;
+}
+
+footer h4 {
+  font-family: "Creepster", cursive;
+}
